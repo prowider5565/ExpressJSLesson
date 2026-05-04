@@ -1,0 +1,11 @@
+Packages to install for configuration
+
+npm install express
+npm install sequelize
+npm install sqlite3
+
+
+Database migration
+npx sequelize-cli init
+npx sequelize-cli migration:generate --name initial
+npx sequelize-cli db:migrate
